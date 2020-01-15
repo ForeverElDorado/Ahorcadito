@@ -5,11 +5,18 @@
  */
 package codigo;
 
+import javax.swing.JButton;
+
 /**
  *
  * @author aghsk
  */
 public class VentanaAhorcado extends javax.swing.JFrame {
+
+    //Metodo recibo boton que pulso y procesa la letra que tiene el hueco
+    public void chequeaBoton(JButton boton) {
+      boton.setEnabled(false);
+    }
 
     /**
      * Creates new form VentanaAhorcado
@@ -27,21 +34,471 @@ public class VentanaAhorcado extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        LetraB = new javax.swing.JButton();
+        LetraA = new javax.swing.JButton();
+        LetraC = new javax.swing.JButton();
+        LetraD = new javax.swing.JButton();
+        LetraG = new javax.swing.JButton();
+        LetraE = new javax.swing.JButton();
+        LetraL = new javax.swing.JButton();
+        LetraK = new javax.swing.JButton();
+        LetraN = new javax.swing.JButton();
+        LetraM = new javax.swing.JButton();
+        LetraJ = new javax.swing.JButton();
+        LetraI = new javax.swing.JButton();
+        LetraS = new javax.swing.JButton();
+        LetraR = new javax.swing.JButton();
+        LetraU = new javax.swing.JButton();
+        LetraT = new javax.swing.JButton();
+        LetraQ = new javax.swing.JButton();
+        LetraP = new javax.swing.JButton();
+        LetraH = new javax.swing.JButton();
+        LetraV = new javax.swing.JButton();
+        LetraO = new javax.swing.JButton();
+        LetraZ = new javax.swing.JButton();
+        LetraY = new javax.swing.JButton();
+        LetraX = new javax.swing.JButton();
+        LetraW = new javax.swing.JButton();
+        LetraF = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setText("_ _ _ _ _");
+
+        LetraB.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraB.setText("B");
+        LetraB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraBActionPerformed(evt);
+            }
+        });
+
+        LetraA.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraA.setText("A");
+        LetraA.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraAActionPerformed(evt);
+            }
+        });
+
+        LetraC.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraC.setText("D");
+        LetraC.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraCActionPerformed(evt);
+            }
+        });
+
+        LetraD.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraD.setText("C");
+        LetraD.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraDActionPerformed(evt);
+            }
+        });
+
+        LetraG.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraG.setText("G");
+        LetraG.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraGActionPerformed(evt);
+            }
+        });
+
+        LetraE.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraE.setText("E");
+        LetraE.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraEActionPerformed(evt);
+            }
+        });
+
+        LetraL.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraL.setText("L");
+        LetraL.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraLActionPerformed(evt);
+            }
+        });
+
+        LetraK.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraK.setText("K");
+        LetraK.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraKActionPerformed(evt);
+            }
+        });
+
+        LetraN.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraN.setText("N");
+        LetraN.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraNActionPerformed(evt);
+            }
+        });
+
+        LetraM.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraM.setText("M");
+        LetraM.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraMActionPerformed(evt);
+            }
+        });
+
+        LetraJ.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraJ.setText("J");
+        LetraJ.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraJActionPerformed(evt);
+            }
+        });
+
+        LetraI.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraI.setText("I");
+        LetraI.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraIActionPerformed(evt);
+            }
+        });
+
+        LetraS.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraS.setText("S");
+        LetraS.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraSActionPerformed(evt);
+            }
+        });
+
+        LetraR.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraR.setText("R");
+        LetraR.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraRActionPerformed(evt);
+            }
+        });
+
+        LetraU.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraU.setText("U");
+        LetraU.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraUActionPerformed(evt);
+            }
+        });
+
+        LetraT.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraT.setText("T");
+        LetraT.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraTActionPerformed(evt);
+            }
+        });
+
+        LetraQ.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraQ.setText("Q");
+        LetraQ.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraQActionPerformed(evt);
+            }
+        });
+
+        LetraP.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraP.setText("P");
+        LetraP.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraPActionPerformed(evt);
+            }
+        });
+
+        LetraH.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraH.setText("H");
+        LetraH.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraHActionPerformed(evt);
+            }
+        });
+
+        LetraV.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraV.setText("V");
+        LetraV.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraVActionPerformed(evt);
+            }
+        });
+
+        LetraO.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraO.setText("O");
+        LetraO.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraOActionPerformed(evt);
+            }
+        });
+
+        LetraZ.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraZ.setText("Z");
+        LetraZ.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraZActionPerformed(evt);
+            }
+        });
+
+        LetraY.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraY.setText("Y");
+        LetraY.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraYActionPerformed(evt);
+            }
+        });
+
+        LetraX.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraX.setText("X");
+        LetraX.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraXActionPerformed(evt);
+            }
+        });
+
+        LetraW.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraW.setText("W");
+        LetraW.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraWActionPerformed(evt);
+            }
+        });
+
+        LetraF.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        LetraF.setText("F");
+        LetraF.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                LetraFActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 355, Short.MAX_VALUE)
+            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(95, 95, 95)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(LetraA, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(LetraB, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(LetraD, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(LetraC, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(LetraE, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(LetraF, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(LetraO, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(LetraP, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(LetraQ, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(LetraR, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(LetraV, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(LetraW, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(LetraX, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(LetraY, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(LetraZ, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(LetraS, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(LetraT, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(LetraH, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(LetraI, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(LetraJ, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(LetraK, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(LetraL, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(LetraM, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(LetraU, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(LetraN, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(LetraG, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(32, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 563, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(LetraB, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraA, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraC, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraD, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraG, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraE, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraF, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(LetraJ, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraI, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraL, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraK, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraN, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraM, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraH, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(LetraQ, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraP, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraS, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraR, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraU, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraT, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraO, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(LetraZ, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraY, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraX, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraW, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LetraV, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(47, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void LetraBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraBActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraBActionPerformed
+
+    private void LetraAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraAActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraAActionPerformed
+
+    private void LetraCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraCActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraCActionPerformed
+
+    private void LetraDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraDActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraDActionPerformed
+
+    private void LetraGActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraGActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraGActionPerformed
+
+    private void LetraEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraEActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraEActionPerformed
+
+    private void LetraLActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraLActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraLActionPerformed
+
+    private void LetraKActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraKActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraKActionPerformed
+
+    private void LetraNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraNActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraNActionPerformed
+
+    private void LetraMActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraMActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraMActionPerformed
+
+    private void LetraJActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraJActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraJActionPerformed
+
+    private void LetraIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraIActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraIActionPerformed
+
+    private void LetraSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraSActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraSActionPerformed
+
+    private void LetraRActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraRActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraRActionPerformed
+
+    private void LetraUActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraUActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraUActionPerformed
+
+    private void LetraTActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraTActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraTActionPerformed
+
+    private void LetraQActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraQActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraQActionPerformed
+
+    private void LetraPActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraPActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraPActionPerformed
+
+    private void LetraHActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraHActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraHActionPerformed
+
+    private void LetraVActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraVActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraVActionPerformed
+
+    private void LetraOActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraOActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraOActionPerformed
+
+    private void LetraZActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraZActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraZActionPerformed
+
+    private void LetraYActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraYActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraYActionPerformed
+
+    private void LetraXActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraXActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraXActionPerformed
+
+    private void LetraWActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraWActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraWActionPerformed
+
+    private void LetraFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LetraFActionPerformed
+        chequeaBoton((JButton) evt.getSource());
+    }//GEN-LAST:event_LetraFActionPerformed
 
     /**
      * @param args the command line arguments
@@ -79,5 +536,33 @@ public class VentanaAhorcado extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton LetraA;
+    private javax.swing.JButton LetraB;
+    private javax.swing.JButton LetraC;
+    private javax.swing.JButton LetraD;
+    private javax.swing.JButton LetraE;
+    private javax.swing.JButton LetraF;
+    private javax.swing.JButton LetraG;
+    private javax.swing.JButton LetraH;
+    private javax.swing.JButton LetraI;
+    private javax.swing.JButton LetraJ;
+    private javax.swing.JButton LetraK;
+    private javax.swing.JButton LetraL;
+    private javax.swing.JButton LetraM;
+    private javax.swing.JButton LetraN;
+    private javax.swing.JButton LetraO;
+    private javax.swing.JButton LetraP;
+    private javax.swing.JButton LetraQ;
+    private javax.swing.JButton LetraR;
+    private javax.swing.JButton LetraS;
+    private javax.swing.JButton LetraT;
+    private javax.swing.JButton LetraU;
+    private javax.swing.JButton LetraV;
+    private javax.swing.JButton LetraW;
+    private javax.swing.JButton LetraX;
+    private javax.swing.JButton LetraY;
+    private javax.swing.JButton LetraZ;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }
